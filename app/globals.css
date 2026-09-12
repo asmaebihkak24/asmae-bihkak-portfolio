@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #F8F5EF;
+  --bg-secondary: #F2EEE7;
+  --bg-card: #FBF9F5;
+  --text-primary: #1B1B1B;
+  --text-secondary: #6E6964;
+  --text-muted: #8C8680;
+  --accent-mauve: #9B86A8;
+  --accent-rose: #C9A9A8;
+  --accent-lavender: #DDD4E3;
+  --charcoal: #242126;
+  --border-delicate: rgba(36, 33, 38, 0.08);
+  --border-mauve: rgba(155, 134, 168, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: rgba(155, 134, 168, 0.2);
+  selection-color: #9B86A8;
+}
+
+/* Typography Classes */
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+/* Accessible Focus Ring */
+*:focus-visible {
+  outline: 2px solid #9B86A8;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Subtle Warm Card Surface */
+.warm-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-delicate);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.warm-card:hover {
+  border-color: var(--border-mauve);
+  box-shadow: 0 12px 30px rgba(155, 134, 168, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Editorial Line Accents */
+.editorial-stroke {
+  background: linear-gradient(90deg, rgba(155, 134, 168, 0.4) 0%, rgba(201, 169, 168, 0.4) 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A9A8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9B86A8;
+}
