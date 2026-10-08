@@ -383,9 +383,9 @@ export const CV_CARDS: CVCardItem[] = [
     title: "CV — FRANÇAIS",
     subtitle: "French Curriculum Vitae",
     description: "Mon parcours académique, mes expériences et mes projets.",
-    viewUrl: "/cv/cv_francais (2).pdf",
-    downloadUrl: "/cv/cv_francais (2).pdf",
-    downloadFileName: "Cv_francais (2).pdf",
+    viewUrl: "/cv/CV-Francais.pdf",
+    downloadUrl: "/cv/CV-Francais.pdf",
+    downloadFileName: "CV-Francais.pdf",
     lang: "FR"
   },
   {
