@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   headline: "Building intelligent solutions with Data, Machine Learning & AI.",
   heroSubtitle: "Final-year Data Science & Artificial Intelligence engineering student at ENSA Fès, passionate about transforming complex data and models into practical, shipped applications.",
   aboutText: "I’m a final-year Data Science & Artificial Intelligence engineering student at ENSA Fès. I enjoy turning real-world problems into practical intelligent systems — from data preparation and machine learning models to AI-powered backend applications.",
-  
+
   processSteps: [
     { step: "01", name: "Understand", desc: "Formulate domain problems, clean telemetry datasets, and define model evaluation criteria." },
     { step: "02", name: "Build", desc: "Design ML architectures, vector index schemas, and scalable FastAPI backend services." },
@@ -383,9 +383,9 @@ export const CV_CARDS: CVCardItem[] = [
     title: "CV — FRANÇAIS",
     subtitle: "French Curriculum Vitae",
     description: "Mon parcours académique, mes expériences et mes projets.",
-    viewUrl: "/cv/CV-Francais.pdf",
-    downloadUrl: "/cv/CV-Francais.pdf",
-    downloadFileName: "CV-Francais.pdf",
+    viewUrl: "/cv/cv_francais.pdf",
+    downloadUrl: "/cv/cv_francais.pdf",
+    downloadFileName: "CV_Asmae_Bihkak_FR.pdf",
     lang: "FR"
   },
   {
